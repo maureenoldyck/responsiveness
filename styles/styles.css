@@ -1,13 +1,23 @@
 
+body {
+    color: midnightblue;
+}
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
   }
 
+#small, #medium, #large {
+    margin: 4px;
+    padding: 4.5px;
+    border: black;
+    border-style: dotted;
+}
 
 @media screen and (max-width: 480px) {
     body {
-        background-color: red;
+        background-color: palevioletred;
     }
 
     h2 {
@@ -27,7 +37,7 @@
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
     body {
-        background-color: green;
+        background-color: aquamarine;
     }
 
     h2 {
@@ -38,7 +48,7 @@
         font-size: 20px;
     }
     #small {
-    flex: 70%;
+    flex: 60%;
     }
 
     #medium {
@@ -54,7 +64,7 @@
 
 @media screen and (min-width: 1024px) {
     body {
-        background-color: blue;
+        background-color: cornflowerblue;
     }
 
     h2 {
